@@ -14,8 +14,6 @@ document.getElementById('toggle').addEventListener('click', function () {
         paragraph.innerHTML = 'Keep screen on status: activated !'
 
         noSleep.enable()
-
-        console.log("Activated", clicked)
     } else {
         clicked = !clicked
 
@@ -23,8 +21,6 @@ document.getElementById('toggle').addEventListener('click', function () {
         paragraph.innerHTML = 'Keep screen on status: deactivated'
 
         noSleep.disable()
-
-        console.log('Deactivated', clicked)
     }
 
 })
