@@ -1,4 +1,4 @@
-const NoSleep = require('nosleep.js')
+import NoSleep from 'nosleep.js'
 const noSleep = new NoSleep()
 
 let clicked = false
